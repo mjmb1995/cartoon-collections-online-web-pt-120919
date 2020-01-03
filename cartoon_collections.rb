@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(collection)# code an argument here
   # Your code here
-  collection.any? do |i| 
+  collection.any? do |i|
     i.length > 4
   end
 end
