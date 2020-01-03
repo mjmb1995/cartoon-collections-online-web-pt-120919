@@ -12,8 +12,9 @@ def summon_captain_planet(collection)# code an argument here
   new_array = collection.collect {|element| "#{element.capitalize}!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(collection)# code an argument here
   # Your code here
+  collection.any? {|i| i.length > 4}
 end
 
 def find_the_cheese# code an argument here
