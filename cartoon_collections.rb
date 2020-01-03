@@ -1,7 +1,9 @@
 def roll_call_dwarves(collection)# code an argument here
   # Your code here
-  collection.each do |name|
-    put name
+  i = 0
+  while i > collection.length
+    puts "#{i} #{collection[i]}"
+    i += 1
   end
 end
 
