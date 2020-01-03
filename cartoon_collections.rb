@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(collection)# code an argument here
   # Your code here
-  collection.collect {|element| "#{element.upcase}!"
+  collection.collect {|element| "#{element.upcase}!"}
 end
 
 def long_planeteer_calls# code an argument here
