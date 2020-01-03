@@ -22,5 +22,8 @@ end
 def find_the_cheese(collection)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  collection.detect {|i| i.include?(cheese_types)}
+  i = 0
+  while i < cheese_types.length
+  collection.include?(cheese_types[i])    
+  end
 end
